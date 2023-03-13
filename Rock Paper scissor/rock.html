@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="paper.css">
+</head>
+<body>
+    <div class="main">
+      <div class="d">
+      <div class="b">
+        <h3>PLAYER</h3>
+        <p id="sa">0</p>
+      </div>
+      <div class="c">
+        <h3>COMPUTER</h3>
+        <p id="sb">0</p>
+      </div>
+      </div>
+      <h1 style="margin-top:35px;" class="a" id="aa">Rock  Paper  Scissors</h1>
+      <div style="margin-top:15px;" class="join">
+        <!--first page-->
+        <div id="hide">
+         <div class="img5">   
+    <img  class="im" src="4.jpg">
+
+      </div>
+    
+      <button   onclick="fun()" style="margin-top:20px;" class="btn">START</button>
+      </div>
+      <!--end for fisrst -->
+      <!--second page-->
+      <div class="vis2" id="stop1" >
+               <div class="img2" id="ii" style="padding-bottom: 20px;padding:10px;">
+                  <img  id="ia" src="0.png"/>
+                   <img  id="ib" style="transform: rotateY(180deg);" src="0.png"/>
+               </div>
+    
+              <div class="img1" id="p">
+                    <button onclick="selection(0)"  id="0">ROCK</button>
+                    <button onclick="selection(1)" id="1">PAPER</button>
+                       <button onclick="selection(2)" id="2">SCISSORS</button><br><br>
+                    <button onclick="stop()" id="stop" >STOP</button>
+      
+                       </div>
+    </div>
+    <!--second page end-->
+    <!--third page-->
+     <img src="" id="pic">
+     
+    <!--third none-->
+     </div>
+    </div>
+    <script src="scissors.js"></script>
+</body>
+</html>
